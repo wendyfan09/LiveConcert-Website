@@ -1,0 +1,44 @@
+#menu{
+  background:url(/LiveConcert/assets/images/header_1.jpg) no-repeat;
+  opacity: 2;
+  height: 300px;
+  background-size:cover;
+  margin-top: -30px ;
+}
+
+nav {
+  max-width: 1260px;
+  /*max-height: 270px;*/
+
+  mask-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #ffffff 25%, #ffffff 75%, rgba(255, 255, 255, 0) 100%);
+  padding: 10px 0;
+}
+nav ul {
+  height: 100%;
+  text-align: center;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 100%);
+  width: 100%;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+}
+nav ul li {
+  display: inline-block;
+}
+nav ul li a {
+  margin-top: 240px ;
+
+  padding: 18px;
+  font-family: Helvetica Neue;
+  /*"Roboto";*/
+  color:  rgba(211,211, 211, 0.7);
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.2);
+  font-size: 20px;
+  text-decoration: none;
+  display: block;
+}
+nav ul li a:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+  background: rgba(255, 255, 255, 0.2);
+  /*color: rgba(176,224,230, 1);*/
+  color: #93CEEE;
+}
+

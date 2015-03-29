@@ -1,0 +1,133 @@
+/*-------General Set--------*/
+/*#2E343E*/
+/*#00b0bb*/
+/*#93ceee*/
+/*#2e343e*/
+* {
+ font-size: 100%;
+ font-family: Helvetica Neue;
+ color:rgba(211,211,211,1);
+}
+
+body{
+	background: #2E343E;
+}
+body {	
+	background: url('../images/background5.jpg') no-repeat center center fixed;
+	/*#2E343E;*/
+	/*url('../images/background_crowd.jpg') no-repeat center center fixed;*/
+	background-size:cover;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+input:-webkit-autofill {
+    -webkit-box-shadow:0 0 0 50px white inset; /* Change the color to your own background color */
+    /*-webkit-text-fill-color: ;*/
+}
+
+#login-register{
+	background: url('../images/inputbackground1.jpg') no-repeat center center fixed;
+	opacity: 0.8;
+	/*rgba(128,128,128, .5);*/
+	padding: 65px 75px;
+	width:550px;
+	height:320px;
+	position:absolute;
+	top:40%;
+	left:50%;
+	margin:-235px 0 0 -355px;
+
+	box-shadow:0 2px 5px rgba(0,0,0,0.7);
+}
+/**/
+#login-register input{
+	font: inherit;
+	font-size: 18px;
+	line-height: 30px;
+	background-color: rgba(169,169,169, 0.6);
+	color:#00b0bb;
+	padding: 10px 20px;
+	border: none;
+	display: block;
+	width: 450px;
+	margin: 30px 0 20px;
+	outline: none;
+
+}
+#login-register input:hover{
+	background-color: #2E343E;
+	opacity: 0.6
+	}
+#login-register h1{
+	font-size:35px;
+	margin-top: -30px;
+}
+
+
+#login-register a{
+	text-decoration: none;
+	font: inherit;
+	font-size: 18px;
+	color:#00b0bb;
+	/*rgba(211,211,211, 0.5);*/
+
+}
+#login-register a:hover{
+	color:rgba(211,211,211,1);
+	color:#2E343E;
+
+}
+img{
+	height:50px;
+	 width:50px;
+
+}
+ span{
+	color:rgba(30, 85, 42, 1);
+	font-size:18px;
+	text-align: center;
+	margin-bottom: 25px;
+
+}
+/*.error span{
+	font-size:10px;
+	text-align: center;
+	margin-bottom: 5px;
+
+}*/
+#login-register p{
+	line-height:1.4;
+}
+h1{
+	color:#2E343E;
+	/*rgba(255,255,255, 0.6);*/
+	font-size:60px;
+	text-align: center;
+	/*font-family: Helvetica Neue;*/
+	font-family: 'Open Sans';
+	/*color:#00b0bb;*/
+	margin-top: 30px;
+	font-weight: 800;
+}
+#login-register .login_button{
+	background-color:rgba(169,169,169, 0.5);
+	box-shadow:0 2px 5px rgba(0,0,0,0.5);
+	font-size: 28px;
+
+
+}
+#login-register .login_button:hover{
+	background-color:#2E343E;
+	color:rgba(192,192,192, 1);
+	box-shadow:0 2px 5px rgba(0,0,0,0.5);
+
+}
+#signup{
+	float: right;
+	position: relative;
+}
+#head img{
+	size:50px;
+}
